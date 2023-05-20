@@ -1,0 +1,84 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.nav
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 35px;
+    position: fixed;
+    width: 100%;
+}
+.nav a
+{
+    text-decoration: none;
+    padding: 0px 25px;
+    font-weight: 400;
+    font-size: 30px;
+    color: white
+}
+.nav-logo
+{
+    padding-left: 50%;
+}
+.scroll-container {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1
+{
+    padding: 120px 250px;
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.outer 
+{
+    border: 1px solid black;
+    width: 1200px;
+    font-size: 25px;
+    align-items: center;
+    border-collapse: collapse;
+    margin: 10px 250px;
+}
+.outer td, th
+{
+    border: 1px solid black;
+}
+.inner td
+{
+    border: 1px solid black;
+    width:400px;
+    padding-left: 20px;
+}
+.inner th
+{
+    border: none;
+}
+
+form
+{
+    width: 65%;
+    font-size: 25px;
+    padding-left: 250px;
+    
+}
+
+input 
+{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
