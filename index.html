@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <link rel="stylesheet" href = "/cssStyle.css"></link>
+    <link rel="stylesheet" href = "/styles.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <a href="/index.html">Library System</a>
+        </div>
+        <div class="nav-logo">
+            <a href="#books" id = "books">Books</a>
+            <a href="#register" id="register">Register</a>
+            <a href="/contact-us"id="contact-us">Contact Us</a>
+            <a href="/logout" id = "logout">Logout</a>
+        </div>
+    </div>
+    <div class="scroll-container">
+        <div class="scroll-page" id="books"></div>
+        <div class="scroll-page" id="register"></div>
+    </div>
+    <div class="main">
+    <div class="books">
+        <h1>Books</h1>
+        <table class="outer">
+            <thead>
+                <tr>
+                    <th>Book Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <table class="inner">
+                            <tr><th>Fast and Furious</th></tr>
+                            <tr><td>Publication Date:2000</td></tr>
+                            <tr><td>Page count:250</td></tr>
+                            <tr><td>ISBN:123-123456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Yuganshu</td>
+                    <td>Action</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <table class="inner">
+                            <tr><th>Wizards of OZ</th></tr>
+                            <tr><td>Publication Date:2004</td></tr>
+                            <tr><td>Page count:300</td></tr>
+                            <tr><td>ISBN:123-123456987</td></tr>
+                        </table>
+                    </td>
+                    <td>Yuganshu</td>
+                    <td>Magic</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <table class="inner">
+                            <tr><th>Phir Hera Pheri</th></tr>
+                            <tr><td>Publication Date:2008</td></tr>
+                            <tr><td>Page count:270</td></tr>
+                            <tr><td>ISBN:123-123654789</td></tr>
+                        </table>
+                    </td>
+                    <td>Yuganshu</td>
+                    <td>Comedy</td>
+                    <td> Not Available</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <table class="inner">
+                            <tr><th>Inidan Show</th></tr>
+                            <tr><td>Publication Date:2012</td></tr>
+                            <tr><td>Page count:200</td></tr>
+                            <tr><td>ISBN:123-321456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Yuganshu</td>
+                    <td>Comedy</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <table class="inner">
+                            <tr><th>Fate of the furious</th></tr>
+                            <tr><td>Publication Date:2016</td></tr>
+                            <tr><td>Page count:320</td></tr>
+                            <tr><td>ISBN:321-123456789</td></tr>
+                        </table>
+                    </td>
+                    <td>Yuganshu</td>
+                    <td>Action</td>
+                    <td>Not Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="register">
+        <h1>Register</h1>
+        <form action="get">
+            <label for="fname">First Name</label><br>
+            <input type="text" class="fname" id="fname" required><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" class="lname" id="lname" required><br>
+            <label for="dob">Date Of Birth</label><br>
+            <input type="date" class="dob" id="dob" required><br>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age" max="100" min="5" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" class="email" id="email" required><br>
+            <label for="pass">Password</label><br>
+            <input type="password" class="pass" id="pass" required><br>
+            <label for="cpass">Confirm Password</label><br>
+            <input type="password" class="cpass" id="cpass" required><br>
+            <input type="submit" name="btn" id="btn" value="Register"><br>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
